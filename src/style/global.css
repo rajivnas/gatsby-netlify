@@ -48,6 +48,10 @@
     background: #f6f6f6;
     padding: 2rem;
 }
+.blog_preview img{
+    width: 100%;
+    height: auto;
+}
 .blog_preview h2{
     margin-bottom: 0.8rem;
 }
