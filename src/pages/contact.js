@@ -1,16 +1,12 @@
 import React from "react"
 import Layout from "../components/Loyout"
 
-export default function Home() {
-
-
+export default function Contact() {
   return (
     <Layout>
       <div className="container">
-        <h1>Netlify CMS</h1>
-
+        <h2>Contact me</h2>
       </div>
     </Layout>
   )
 }
-
