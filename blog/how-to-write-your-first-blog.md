@@ -2,6 +2,7 @@
 slug: how-to-write-your-first-blog
 date: 2021-09-09T06:14:04.004Z
 title: How To Write Your First Blog?
+image: /assets/blog.jpg
 ---
 ![Blog](/assets/blog.jpg "How to write your first blog?")
 

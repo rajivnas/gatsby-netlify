@@ -2,6 +2,7 @@
 slug: best-time-to-travel-abroad
 date: 2021-09-09T06:16:38.731Z
 title: The Best Time To Travel Abroad
+image: /assets/travel.jpg
 ---
 ![travel](/assets/travel.jpg "Best Time To Travel Abroad")
 
