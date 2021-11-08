@@ -2,6 +2,7 @@
 slug: why-you-should-visit-ravangla
 date: 2021-09-09T06:49:30.516Z
 title: Why You Should Visit Ravangla At Least Once?
+image: /assets/ravangla.jpg
 ---
 ![Ravangla](/assets/ravangla.jpg "Why You Should Visit Ravangla At Least Once?")
 
