@@ -7,7 +7,13 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/assets`,
+        name: "assets",
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -15,6 +21,20 @@ module.exports = {
         path: `${__dirname}/blog/`,
       },
     },
-    `gatsby-transformer-remark`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {},
+          },
+        ],
+      },
+    },
+    `gatsby-plugin-netlify-cms`,
   ],
 }
